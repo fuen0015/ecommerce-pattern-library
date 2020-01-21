@@ -1,0 +1,11 @@
+:root {
+  --color-primary: #4e6872;
+  --color-primary-light: #bec9ce;
+  --color-body: #1e1e1e;
+
+  --font-primary: 'Quicksand', Ariel, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
