@@ -2,4 +2,15 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Bloom Soap Co."
+  description: Soap company that offers organic all natural products that are great for the environment and for your skin!
   font_url: "https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap"
+  rationales:
+    typefaces.primary: |
+      Use Quicksand for everything
+    colors.primary: |
+      Use for headers only
+
+      primary-light used only for card backgrounds
+    colors.accent: |
+      Use for body only

@@ -1,6 +1,7 @@
 :root {
   --color-primary: #4e6872;
   --color-primary-light: #bec9ce;
+  --color-secondary: #ffffff;
   --color-body: #1e1e1e;
 
   --font-primary: 'Quicksand', Ariel, sans-serif;
@@ -35,4 +36,9 @@ li {
 
 q {
   font-style: italic;
+}
+
+.card-price {
+  font-weight: 800;
+  color: var(--color-primary);
 }
