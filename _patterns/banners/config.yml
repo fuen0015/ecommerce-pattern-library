@@ -1,0 +1,14 @@
+patterns:
+  homepage-banner:
+    title: 'Banners'
+    description: This is the main banner. It should be used only on homepage
+    fields:
+      - name: title
+        type: string
+        example: "A GIFT FROM NATURE"
+      - name: details
+        type: string
+        example: "Homemade soap made with all natural ingredients"
+      - name: image
+        type: image
+        example: "banner.jpg"

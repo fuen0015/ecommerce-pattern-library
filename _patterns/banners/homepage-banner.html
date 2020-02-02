@@ -1,0 +1,8 @@
+<div class="hero-image text-center">
+  <img src="(/images/{{include.image}}" alt="">
+  <div class="hero-text">
+    <h1>{{include.title | default: 'A GIFT FROM NATURE'}}</h1>
+    <p>{{include.details | default: 'Homemade soap made with all natural ingredients'}}</p>
+    {% pattern buttons/light text="SHOP NOW" %}
+  </div>
+</div>
