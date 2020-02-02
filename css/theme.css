@@ -37,8 +37,3 @@ li {
 q {
   font-style: italic;
 }
-
-.card-price {
-  font-weight: 800;
-  color: var(--color-primary);
-}

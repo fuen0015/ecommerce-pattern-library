@@ -1,0 +1,21 @@
+title: "Buttons"
+description: |
+  different button styles, each for different reasons.
+
+patterns:
+  dark:
+    title: "Add to cart button"
+    description: Used only on cards.
+    width: 180
+    fields:
+      - name: text
+        type: string
+        example: "EXAMPLE"
+  light:
+    title: "Shop now button"
+    description: Used only on banners, and only used when the background is a photo.
+    width: 180
+    fields:
+      - name: text
+        type: string
+        example: "EXAMPLE"

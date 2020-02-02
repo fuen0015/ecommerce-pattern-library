@@ -1,0 +1,16 @@
+patterns:
+  soap:
+    width: 400
+    fields:
+      - name: title
+        type: string
+        example: "Snowball"
+      - name: details
+        type: string
+        example: "Vanilla and Citrus"
+      - name: image
+        type: image
+        example: "snowball.jpg"
+      - name: term
+        type: value
+        example: "$8.99"
