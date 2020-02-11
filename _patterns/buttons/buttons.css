@@ -23,3 +23,11 @@
   border-color: var(--color-primary-light);
   color: var(--color-secondary);
 }
+
+.cart {
+  color: var(--color-primary);
+}
+
+a:hover {
+  color: var(--color-body);
+}

@@ -1,0 +1,11 @@
+.error-message {
+  display: none;
+  background-color: #a77bdb;
+  color: #6e21b7;
+}
+
+input,
+select {
+  border-radius: 10px;
+  border-color: var(--color-primary);
+}

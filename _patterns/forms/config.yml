@@ -1,0 +1,26 @@
+title: "Forms"
+description: |
+  Form pieces for website
+
+patterns:
+  required-basic-field:
+    title: "Required Basic Field"
+    description: This field is used for name, address, city on the check out page.
+  basic-field:
+    title: "Basic Field"
+    description: This field is used for Apartment, suite, etc. only on the check out page.
+  phone-number-field:
+    title: "Phone Number Field"
+    description: This is used for phone number on the check out page.
+  email-field:
+    title: "Email Field"
+    description: This is used for email on the check out page.
+  province-field:
+    title: "Province Field"
+    description: This is used for selecting a province on the check out page.
+  postal-code-field:
+    title: "Postal Code Field"
+    description: This is used for postal code on the check out page.
+  checkboxes:
+    title: "Checkboxes"
+    description: This is used for special offers and promotions on the check out page.
