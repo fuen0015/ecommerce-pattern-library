@@ -24,3 +24,6 @@ patterns:
   checkboxes:
     title: "Checkboxes"
     description: This is used for special offers and promotions on the check out page.
+  quantity:
+    title: "Quantity Field"
+    description: This is used for product page only.

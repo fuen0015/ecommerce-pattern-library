@@ -1,8 +1,10 @@
 :root {
   --color-primary: #4e6872;
   --color-primary-light: #bec9ce;
-  --color-secondary: #ffffff;
+  --color-white: #ffffff;
   --color-body: #1e1e1e;
+  --color-error-background: #8ee8ed;
+  --color-error-text: #00bdc6;
 
   --font-primary: 'Quicksand', Ariel, sans-serif;
 }
