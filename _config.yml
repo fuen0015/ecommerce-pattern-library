@@ -14,3 +14,6 @@ patternbot:
       primary-light used only for card backgrounds
     colors.accent: |
       Use for body only
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.

@@ -11,6 +11,7 @@ patterns:
       - name: text
         type: string
         example: "EXAMPLE"
+        required: false
   light:
     title: "Shop now button"
     description: Used only on banners, and only used when the background is a photo.
@@ -19,3 +20,4 @@ patterns:
       - name: text
         type: string
         example: "EXAMPLE"
+        required: false

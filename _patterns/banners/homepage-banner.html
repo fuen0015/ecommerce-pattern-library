@@ -3,6 +3,8 @@
   <div class="hero-text">
     <h1 class="banner-header">{{include.title | default: 'A GIFT FROM NATURE'}}</h1>
     <p>{{include.details | default: 'Homemade soap made with all natural ingredients'}}</p>
-    {% pattern buttons/light text="SHOP NOW" %}
+    {% if include.button_url %}
+      {% pattern buttons/light text="SHOP NOW" %}
+    {% endif %}
   </div>
 </div>
