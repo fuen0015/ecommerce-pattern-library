@@ -1,0 +1,12 @@
+patterns:
+  product-details:
+    fields:
+    - name: title
+      type: string
+      example: "Snowball"
+    - name: details
+      type: string
+      example: "Vanilla and Citrus"
+    - name: term
+      type: value
+      example: "$8.99"
