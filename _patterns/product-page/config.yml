@@ -1,10 +1,10 @@
 patterns:
   product-details:
     fields:
-    - name: title
+    - name: product-title
       type: string
       example: "Snowball"
-    - name: details
+    - name: product-details
       type: string
       example: "Vanilla and Citrus"
     - name: term

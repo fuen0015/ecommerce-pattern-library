@@ -1,8 +1,9 @@
 <div class="">
   <div class="gutter-1-4">
-    <h1 class="product-name push-0">{{include.title}}</h1>
-    <p class="product-detail push-0">{{include.details}}</p>
+    <h1 class="product-name push-0 pad-b">{{include.product-title}}</h1>
+    <p class="product-detail push-0 pad-b">{{include.product-details}}</p>
     <p class="product-price">{{include.term}}</p>
-    {% pattern buttons/dark text="ADD TO CART" %}
+    {% pattern forms/quantity %}
   </div>
+  {% pattern buttons/dark text="ADD TO CART" %}
 </div>
