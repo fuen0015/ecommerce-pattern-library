@@ -33,3 +33,7 @@ select {
 .is-validated:invalid + label + .error-message {
   display: block;
 }
+
+.quantity {
+  width: 50px;
+}

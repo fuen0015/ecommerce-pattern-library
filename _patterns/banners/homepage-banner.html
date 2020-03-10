@@ -4,7 +4,7 @@
     <h1 class="banner-header">{{include.title | default: 'A GIFT FROM NATURE'}}</h1>
     <p>{{include.details | default: 'Homemade soap made with all natural ingredients'}}</p>
     {% if include.button_url %}
-      {% pattern buttons/light text="SHOP NOW" %}
+      {% pattern buttons/light text="SHOP NOW" url=include.button_url%}
     {% endif %}
   </div>
 </div>

@@ -1,7 +1,8 @@
 patterns:
   homepage-banner:
     title: "Main Banner"
-    description: This is the main banner. It should be used only on homepage
+    description: |
+      This is the main banner. It should be used only on homepage
     fields:
       - name: title
         type: string
@@ -14,4 +15,9 @@ patterns:
         example: "banner.jpg"
   homepage-mini-banner:
     title: "Mini Banner"
-    description: This is a mini banner. This is only on the main page.
+    description: |
+      This is a mini banner. This is only on the main page.
+    fields:
+      - name: mini-icon
+        type: image
+        example: "icons.svg#eco-friendly"
