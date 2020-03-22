@@ -3,5 +3,5 @@
 }
 
 .current a {
-  background-color: var(--color-error-text);
+  background-color: var(--color-primary-light);
 }

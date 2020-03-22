@@ -10,3 +10,6 @@ patterns:
     - name: term
       type: value
       example: "$8.99"
+    - name: image
+      type: image
+      example: snowball.jpg
