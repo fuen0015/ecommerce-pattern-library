@@ -14,3 +14,8 @@ patterns:
       - name: term
         type: value
         example: "$8.99"
+      - name: data
+        type: object
+        date:
+          source: "site.products[0]"
+          type: Product
