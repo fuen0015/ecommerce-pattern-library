@@ -29,7 +29,7 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 <hr>
 
 ## Helpful links
-- [netlify](https://sharp-hypatia-b86a9c.netlify.com/)
+- [netlify](vhttps://sharp-hypatia-b86a9c.netlify.com/)
 - [ux design](https://projects.invisionapp.com/boards/GV3Y5MAKZTQ)
 
 ## Collaborators
