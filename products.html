@@ -5,6 +5,10 @@ highlight_nav: shop
 
 {% pattern banners/homepage-banner title="Soaps" details="Come an get it" image="banner2.jpg" %}
 
-{% for product in site.products %}
-  {% pattern cards/product-card data=product %}
-{% endfor %}
+<div class="grid gutter-1-4 pad-b-2">
+  {% for product in site.products %}
+  <div class="unit [ xs-1 s-1-3 m-1-3 l-1-3] island-1-2">
+    {% pattern cards/soap data=product %}
+  </div>
+  {% endfor %}
+</div>

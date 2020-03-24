@@ -16,6 +16,6 @@ patterns:
         example: "$8.99"
       - name: data
         type: object
-        date:
+        data:
           source: "site.products[0]"
           type: Product

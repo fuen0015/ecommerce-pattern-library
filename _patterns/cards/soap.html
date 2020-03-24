@@ -1,7 +1,7 @@
 <div class="card text-center">
-  <img class="img-flex push-0" src="/images/{{include.data.image}}" alt="Soap product photo">
+  <img class="img-flex push-0" src="{{include.data.image}}" alt="Soap product photo">
   <h2 class="push-0 peta">{{include.data.title}}</h2>
   <p class="push-0 pad-b-1-4">{{include.data.details}}</p>
   <p class="card-price">{{include.data.term}}</p>
-  {% pattern buttons/dark text="ADD TO CART" %}
+  {% pattern buttons/dark text="BUY NOW" url=include.data.url %}
 </div>
